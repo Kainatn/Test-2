@@ -1,0 +1,90 @@
+/* Write your CSS below. Try to make it responsive (i.e. no horizontal scroll) */
+*{
+
+    font-family:'Source Sans Pro', sans-serif;
+}
+#logo{
+    margin-top: 0px;
+width: 100px;
+height: 80px;
+float: left;
+}
+ul {
+  list-style-type: none;
+
+  padding: 0;
+
+  text-align: right;
+}
+
+li {
+float: right;
+}
+
+li a {
+  display: block;
+  color:black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+li a:hover {
+  background-color: palevioletred;
+}
+#img1{
+   
+margin-top: 100px;
+margin-left:200px; 
+box-shadow: 0 0 15px 5px grey;
+height: 400px;
+width: 250px;
+
+}
+.para{
+margin-top: -400px;
+text-align: center;
+}
+.p1,h5{text-align: center;
+}
+span{   
+    text-align: center;
+    margin-left: 40%;
+}
+.star{
+    width:20px;
+}
+.par2{
+
+    color: palevioletred;
+}
+div{
+    display: flexbox;
+}
+button{
+    display: flex; background-color: palevioletred;
+    color: white;
+    margin-left: 550px;
+    padding: 10px 30px;
+    border-color: palevioletred;
+    width: 190px;
+}
+.d1{
+    margin-left: 20%;
+    width:50%;
+    margin-top: 10%;
+
+}
+.d2{ margin-left: 20%;
+    width:50%;
+}
+#lin{
+    text-decoration:none;
+}
+.far{
+    color: gold;
+}
+caption{
+   width: 30%; 
+}
