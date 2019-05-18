@@ -49,6 +49,11 @@ header{
      display: flex;
     justify-content: space-between;
 }
+section{
+    
+    margin-left: 20%;
+    width: 70%;
+}
 
 li a {
   display: block;
@@ -65,13 +70,15 @@ li a:hover {
 }
 #img1{
 box-shadow: 0 0 15px 5px grey;
-margin-left: 50%;
 width: 300px;
  
 }
 
 
 @media (max-width:600px){
+    .main{
+        flex-direction:column;
+    }
     figcaption{
         flex-direction: column;
     }
@@ -98,21 +105,15 @@ button{
     
 }
 .d1{
-    margin-left: 20%;
-    width:50%;
     display: flex;
-   
-
-}
+   }
 .d1 ,.d2 ,.d3{
     margin-top: 2%;
 }
 .d2{
     display: flex;
-    height: auto;
-    margin-left: 20%;
-    width:50%;
-    display: inline-block;
+  height: auto;
+   display: inline-block;
  
 }
 
